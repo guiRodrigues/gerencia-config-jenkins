@@ -7,7 +7,7 @@ pipeline {
         
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/guiRodrigues/todo-tdd'
+        git 'https://github.com/guiRodrigues/gerencia-config-jenkins'
       }
     }
         
